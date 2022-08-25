@@ -11,12 +11,8 @@ assignees: ''
 _A clear and concise description of what the problem is.
 
 
-**To Reproduce**
-_Steps to reproduce the behaviour:
-
-
-**Time**
-_Time was this first reported/noticed.
+**Date/Time**
+_When was this first reported/noticed.
 
 
 
@@ -35,13 +31,23 @@ _If applicable provide example transaction or block explorer links.
 
 
 
+Token
+_If applicable, provide token details
+
+
+
+**Platform(s) affected**
+ _e.g Web(Chrome v102.0, Brave v1.40.105), Mobile (Android, iOS) or Desktop (Windows, MacOS).
+
+
+
+**To Reproduce**
+_Steps to reproduce the behaviour:
+
+
+
 **Screenshots**
 _If applicable, add screenshots to help explain your problem.
-
-
-
-**Clients affected**
- _e.g Web(Chrome v102.0, Brave v1.40.105), Mobile (Android, iOS) or Desktop (Windows, MacOS).
 
 
 
