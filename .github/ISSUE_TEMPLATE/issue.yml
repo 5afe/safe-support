@@ -1,4 +1,4 @@
-name: Issue
+name: :clipboard: New Issue
 description: Please complete this form to report your issue
 title: "[issue form]"
 body:
@@ -30,7 +30,7 @@ body:
   - type: input
     id: timedate
     attributes:
-      label:  Date and time this happend or you first noticed this issue
+      label:  Date and time this happened or you first noticed this issue
       description: dd-mm-yyyy hh:mm
     validations:
       required: true
@@ -39,12 +39,18 @@ body:
     attributes:
       label: Network
       multiple: true
-      description: What netowrk is this happening on
+      description: What netowrk(s) is this happening on
       options:
         - Ethereum Mainnet
-        - Goerli
+        - Etherum Testnet
         - Gnosis Chain
-        - BSC
+        - Arbitrum
+        - Aurora
+        - Avalanche
+        - Binance Smart Chain
+        - Energy Web Chain Mainent
+        - Energy Web Chain Testnet
+        - Optimism
         - Polygon
     validations:
       required: true
