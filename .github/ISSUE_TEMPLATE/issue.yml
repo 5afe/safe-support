@@ -1,0 +1,87 @@
+name: Issue
+description: Please complete this form to report your issue
+title: "[issue form]"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+    validations:
+      required: true
+  - type: input
+    id: timedate
+    attributes:
+      label:  Date and time this happend or you first noticed this issue
+      description: dd-mmm-yyyy hh:mm
+    validations:
+      required: true
+  - type: dropdown
+    id: network
+    attributes:
+      label: Network
+      multiple: true
+      description: What netowrk is this happening on
+      options:
+        - Ethereum Mainnet
+        - Goerli
+        - Gnosis Chain
+        - BSC
+        - Polygon
+    validations:
+      required: true
+  - type: input
+    id: safe
+    attributes:
+      label: Safe Address
+      description: What is the Address of your Safe?
+      placeholder: ex. 0xbadda...
+  - type: input  
+    id: token
+    attributes:
+      label: Token Address
+      description: A particular token you are having an issue with
+      placeholder: ex. 0xbadda...
+  - type: dropdown  
+    id: token_type
+    attributes:
+      label: Token Type
+      multiple: false
+      options:
+        - ERC20
+        - ERC721
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue Category
+      multiple: false
+      options:
+        - Safe loading issue, doesnt load on any interface
+        - Token missing completely / not visible in the interface or service
+        - Token balance not up-to-date, in the interface or service
+        - Transaction execution issue
+        - Transaction missing / not visible in app or service
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: tx_link
+    attributes:
+      label: Transactions
+      description: Please copy links to any transactions affected by this issue
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+          
+
+
