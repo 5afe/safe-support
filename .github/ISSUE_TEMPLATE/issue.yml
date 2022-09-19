@@ -6,6 +6,20 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue Category
+      multiple: false
+      options:
+        - Safe loading issue, doesnt load on any interface
+        - Token missing completely / not visible in the interface or service
+        - Token balance not up-to-date, in the interface or service
+        - Transaction execution issue
+        - Transaction missing / not visible in app or service
+        - Other
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
@@ -54,20 +68,6 @@ body:
       options:
         - ERC20
         - ERC721
-  - type: dropdown
-    id: issue_type
-    attributes:
-      label: Issue Category
-      multiple: false
-      options:
-        - Safe loading issue, doesnt load on any interface
-        - Token missing completely / not visible in the interface or service
-        - Token balance not up-to-date, in the interface or service
-        - Transaction execution issue
-        - Transaction missing / not visible in app or service
-        - Other
-    validations:
-      required: true
   - type: textarea
     id: tx_link
     attributes:
