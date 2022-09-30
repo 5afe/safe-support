@@ -42,16 +42,16 @@ body:
       description: What netowrk(s) is this happening on
       options:
         - Ethereum Mainnet
-        - Etherum Testnet
         - Gnosis Chain
+        - Polygon
+        - Binance Smart Chain
+        - Energy Web Chain Mainent
         - Arbitrum
         - Aurora
         - Avalanche
-        - Binance Smart Chain
-        - Energy Web Chain Mainent
-        - Energy Web Chain Testnet
         - Optimism
-        - Polygon
+        - Goerli
+        - Volta
     validations:
       required: true
   - type: input
