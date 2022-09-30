@@ -13,8 +13,3 @@ Welcome to he Safe support repo - a place to raise issues with the Safe team.
   - (optional) Token type
   - (optional) Transaction ID - transaction hash, link to block exploer and any additional information.
   
-
-  
-# Updates (WIP)
-  
-Your request will be handled by the team and we will provide updates on the ticket where possible. 
