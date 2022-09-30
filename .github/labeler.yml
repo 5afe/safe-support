@@ -1,4 +1,5 @@
-# Add/remove 'critical' label if issue contains the words 'urgent' or 'critical'
+#Github action to add/remove labels to issues
+
 safe_loading:
     - '(Safe loading issue)'
 token_balance:
@@ -11,3 +12,13 @@ tx_missing:
     - '(Transaction missing / not visible in app or service)'
 other:
     - '(Other)'
+mainnet:
+    -  '(Ethereum Mainnet)'   
+gnosis_chain:
+    - '(Gnosis Chain)' 
+polygon:
+    - '(Polygon)'
+bsc: 
+    - '(Binance Smart Chain)'   
+goerli:
+    - '(Goerli')
