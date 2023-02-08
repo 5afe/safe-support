@@ -80,14 +80,5 @@ body:
       label: Transactions
       description: Please copy links to any transactions affected by this issue
       render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: false
-          # setting to false until we have a code of conduct in place
 
 
